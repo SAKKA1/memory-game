@@ -111,7 +111,7 @@ levelBox.addEventListener('click',function(){
         theLevel = 3
         hint.innerHTML = 'you have 3 tries only'
     }else if(level.value === ''){
-        hint.innerHTML = 'Select Level to start  '
+        hint.innerHTML = 'Select Level to start'
     }
     
     if(level.value === 'easy' ||level.value === 'normal' ||level.value === 'hard' ){
